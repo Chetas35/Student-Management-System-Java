@@ -48,7 +48,9 @@ CREATE TABLE students (
 
 ## ⚙️ Configuration
 
-In DBConnection.java, update:
+In `DBConnection.java`, update:
+
+```java
 private static final String URL = "jdbc:mysql://localhost:3306/sms";
 private static final String USER = "root";
 private static final String PASSWORD = "your_password_here";
