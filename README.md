@@ -23,14 +23,14 @@ This project performs full CRUD operations (Create, Read, Update, Delete) on stu
 - MySQL
 - Eclipse IDE
 - Git & GitHub
-- 
+  
 ## 📂 Project Structure
 
 src/com/sms  
  ├── DBConnection.java  
  ├── Student.java  
  ├── StudentDAO.java  
- └── Main.java  <span class="ͼfp ͼfo">##</span>
+ └── Main.java  
 
 ## 🗄️ Database Setup 
 
