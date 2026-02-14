@@ -23,16 +23,16 @@ This project performs full CRUD operations (Create, Read, Update, Delete) on stu
 - MySQL
 - Eclipse IDE
 - Git & GitHub
-
+- 
 ## 📂 Project Structure
 
 src/com/sms  
  ├── DBConnection.java  
  ├── Student.java  
  ├── StudentDAO.java  
- └── Main.java  
+ └── Main.java  <span class="ͼfp ͼfo">##</span>
 
-## 🗄️ Database Setup
+## 🗄️ Database Setup 
 
 ```sql
 CREATE DATABASE sms;
@@ -43,13 +43,11 @@ CREATE TABLE students (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
     age INT,
-    branch VARCHAR(50)
-);
+    branch VARCHAR(50)); 
 
 ## ⚙️ Configuration
 
 In `DBConnection.java`, update:
-
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/sms";
 private static final String USER = "root";
