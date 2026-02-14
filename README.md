@@ -46,7 +46,7 @@ CREATE TABLE students (
     branch VARCHAR(50)
 );
 
-⚙️ Configuration
+## ⚙️ Configuration
 
 In DBConnection.java, update:
 private static final String URL = "jdbc:mysql://localhost:3306/sms";
@@ -54,7 +54,7 @@ private static final String USER = "root";
 private static final String PASSWORD = "your_password_here";
 Also add MySQL Connector/J to the project build path.
 
-▶️ How to Run
+## ▶️ How to Run
 
 1.Clone the repository
 2.Open in Eclipse
@@ -68,7 +68,7 @@ Also add MySQL Connector/J to the project build path.
   4.Delete Student
   5.Exit
 
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 -Java OOP
 -JDBC
@@ -77,7 +77,7 @@ Also add MySQL Connector/J to the project build path.
 -Console-based application
 -Git & GitHub
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 -Search feature
 -Input validation
